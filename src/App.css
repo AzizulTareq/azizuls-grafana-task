@@ -1,0 +1,38 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: #5d6d7e;
+  color: #ffff;
+  margin: 10px 70px;
+}
+
+.stars-container {
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 28px;
+}
+
+.star-rating {
+  font-size: 24px;
+}
+
+.star {
+  color: #ccc;
+}
+
+.full-star {
+  color: yellow;
+}
+
+.half-star {
+  position: relative;
+  color: yellow;
+  display: inline-block;
+  overflow: hidden;
+  width: 0.5em;
+  height: 26px;
+}
+
+.empty-star {
+  color: #ccc;
+}
